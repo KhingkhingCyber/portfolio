@@ -1,130 +1,1493 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khingkhing | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Khingkhing Cyber - Computer Science Student and Cyber Security Enthusiast">
+
+    <meta name="author"
+          content="Khingkhing Cyber">
+
+    <title>Khingkhing Cyber | Portfolio</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
+
 
 <body>
 
-    <header>
-        <nav>
-            <h2>Khingkhing</h2>
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- ==================================================
+     NAVBAR
+================================================== -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>Khingkhing<span>/&gt;</span>
+        </a>
 
 
-    <section id="home" class="hero">
+        <ul class="nav-links" id="navLinks">
 
-        <div>
-            <p>Hello, I'm</p>
+            <li>
+                <a href="#home" class="active">
+                    Home
+                </a>
+            </li>
 
-            <h1>Khingkhing</h1>
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
 
-            <h2>Computer Science Student</h2>
+            <li>
+                <a href="#skills">
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#education">
+                    Education
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+
+        <a href="#contact"
+           class="nav-button">
+
+            Let's Talk
+
+        </a>
+
+
+        <button class="menu-btn"
+                id="menuBtn">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+
+<!-- ==================================================
+     HERO
+================================================== -->
+
+<section class="hero"
+         id="home">
+
+
+    <div class="hero-content">
+
+
+        <div class="status">
+
+            <span class="status-dot"></span>
+
+            Computer Science Student
+
+        </div>
+
+
+        <h1>
+
+            Hi, I'm
+
+            <span class="gradient-text">
+                Khingkhing
+            </span>
+
+        </h1>
+
+
+        <h2 id="typingText">
+
+            Cyber Security Enthusiast
+
+        </h2>
+
+
+        <p>
+
+            I'm a Computer Science & Technology student
+            passionate about Cyber Security, Programming,
+            Linux and Web Development.
+
+            I enjoy learning new technologies and turning
+            what I learn into practical projects.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#projects"
+               class="primary-btn">
+
+                Explore My Work
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+            <a href="#contact"
+               class="secondary-btn">
+
+                Contact Me
+
+            </a>
+
+        </div>
+
+
+        <div class="social-links">
+
+
+            <a href="https://github.com/KhingkhingCyber"
+               target="_blank"
+               aria-label="GitHub">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+
+            <a href="#"
+               aria-label="LinkedIn">
+
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </a>
+
+
+            <a href="#"
+               aria-label="Facebook">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- PROFILE -->
+
+    <div class="profile-area">
+
+
+        <div class="profile-card">
+
+
+            <div class="profile-glow"></div>
+
+
+            <!-- image.png-->
+
+            <div class="profile-image">
+
+                <img src="profile.jpeg"
+    
+                alt="Khingkhing profile photo"
+     
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+
+                <div class="profile-placeholder">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+            </div>
+
+
+            <h3>
+                Khingkhing Cyber
+            </h3>
+
 
             <p>
-                I am learning Web Development,
-                Programming and Cyber Security.
+                Cyber Security Enthusiast
             </p>
 
-            <a href="#projects" class="button">
-                My Projects
-            </a>
-        </div>
 
-    </section>
+            <div class="profile-tags">
 
+                <span>Python</span>
 
-    <section id="about">
+                <span>Linux</span>
 
-        <h2>About Me</h2>
+                <span>Security</span>
 
-        <p>
-            I am a Computer Science student interested in
-            Web Development, Programming and Cyber Security.
-            I enjoy learning new technologies and building projects.
-        </p>
-
-    </section>
-
-
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <div class="skills">
-
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Python</div>
-            <div class="skill">Git & GitHub</div>
-
-        </div>
-
-    </section>
-
-
-    <section id="projects">
-
-        <h2>My Projects</h2>
-
-        <div class="projects">
-
-            <div class="project">
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    My first personal portfolio website
-                    using HTML and CSS.
-                </p>
-
-                <button onclick="showMessage()">
-                    View Project
-                </button>
             </div>
 
 
-            <div class="project">
+            <div class="profile-location">
 
-                <h3>Python Project</h3>
+                <i class="fa-solid fa-location-dot"></i>
 
-                <p>
-                    A simple Python programming project
-                    for learning.
-                </p>
-
-                <button onclick="showMessage()">
-                    View Project
-                </button>
+                Bangladesh
 
             </div>
 
         </div>
 
-    </section>
+
+        <div class="floating-card card-one">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <span>
+                Cyber Security
+            </span>
+
+        </div>
 
 
-    <footer>
+        <div class="floating-card card-two">
 
-        <p>
-            © 2026 Khingkhing. All Rights Reserved.
-        </p>
+            <i class="fa-solid fa-code"></i>
 
-    </footer>
+            <span>
+                Programming
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
 
 
-    <script src="script.js"></script>
+
+<!-- ==================================================
+     QUICK INFO
+================================================== -->
+
+<section class="quick-info">
+
+    <div class="quick-item">
+
+        <i class="fa-solid fa-graduation-cap"></i>
+
+        <div>
+
+            <strong>
+                Diploma Student
+            </strong>
+
+            <span>
+                Computer Science & Technology
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="quick-item">
+
+        <i class="fa-solid fa-shield-halved"></i>
+
+        <div>
+
+            <strong>
+                Career Interest
+            </strong>
+
+            <span>
+                Cyber Security
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="quick-item">
+
+        <i class="fa-brands fa-github"></i>
+
+        <div>
+
+            <strong>
+                GitHub
+            </strong>
+
+            <span>
+                KhingkhingCyber
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     ABOUT
+================================================== -->
+
+<section class="section"
+         id="about">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="small-title">
+                GET TO KNOW ME
+            </span>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="about-grid">
+
+
+        <div class="about-text">
+
+            <p class="big-text">
+
+                I'm a Computer Science & Technology
+                student building my skills in
+                programming and Cyber Security.
+
+            </p>
+
+
+            <p>
+
+                My current learning journey includes
+                Python programming, Web Development,
+                Linux and Cyber Security fundamentals.
+
+            </p>
+
+
+            <p>
+
+                I believe the best way to learn technology
+                is by practicing it. That's why I'm
+                continuously working on small projects,
+                experimenting with Linux and improving
+                my programming skills.
+
+            </p>
+
+
+            <p>
+
+                My long-term goal is to build strong
+                technical expertise and grow into a
+                professional Cyber Security specialist.
+
+            </p>
+
+
+            <div class="about-actions">
+
+                <a href="#skills"
+                   class="primary-btn">
+
+                    My Skills
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="about-cards">
+
+
+            <div class="info-card">
+
+                <div class="icon-box">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <h3>
+                    Cyber Security
+                </h3>
+
+                <p>
+                    Learning security concepts,
+                    networking and ethical security.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon-box">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <h3>
+                    Programming
+                </h3>
+
+                <p>
+                    Developing programming logic
+                    with Python and JavaScript.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon-box">
+
+                    <i class="fa-brands fa-linux"></i>
+
+                </div>
+
+                <h3>
+                    Linux
+                </h3>
+
+                <p>
+                    Exploring Linux systems,
+                    terminal and security tools.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon-box">
+
+                    <i class="fa-solid fa-globe"></i>
+
+                </div>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    Creating responsive websites
+                    using modern frontend technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     SKILLS
+================================================== -->
+
+<section class="section"
+         id="skills">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="small-title">
+                TECHNOLOGIES & TOOLS
+            </span>
+
+            <h2>
+                My <span>Skills</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <span>
+                    01
+                </span>
+
+            </div>
+
+            <h3>
+                Python
+            </h3>
+
+            <p>
+                Programming fundamentals,
+                logic building and automation.
+            </p>
+
+            <div class="progress">
+                <span style="width:70%"></span>
+            </div>
+
+            <small>
+                Developing
+            </small>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <span>
+                    02
+                </span>
+
+            </div>
+
+            <h3>
+                HTML
+            </h3>
+
+            <p>
+                Semantic structure and
+                modern webpage development.
+            </p>
+
+            <div class="progress">
+                <span style="width:85%"></span>
+            </div>
+
+            <small>
+                Comfortable
+            </small>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+                <span>
+                    03
+                </span>
+
+            </div>
+
+            <h3>
+                CSS
+            </h3>
+
+            <p>
+                Responsive layouts,
+                UI design and animations.
+            </p>
+
+            <div class="progress">
+                <span style="width:75%"></span>
+            </div>
+
+            <small>
+                Developing
+            </small>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <span>
+                    04
+                </span>
+
+            </div>
+
+            <h3>
+                JavaScript
+            </h3>
+
+            <p>
+                Learning programming logic,
+                DOM and interactive websites.
+            </p>
+
+            <div class="progress">
+                <span style="width:45%"></span>
+            </div>
+
+            <small>
+                Learning
+            </small>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-linux"></i>
+                </div>
+
+                <span>
+                    05
+                </span>
+
+            </div>
+
+            <h3>
+                Linux
+            </h3>
+
+            <p>
+                Linux commands, terminal,
+                system basics and security.
+            </p>
+
+            <div class="progress">
+                <span style="width:65%"></span>
+            </div>
+
+            <small>
+                Developing
+            </small>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-top">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+
+                <span>
+                    06
+                </span>
+
+            </div>
+
+            <h3>
+                Git & GitHub
+            </h3>
+
+            <p>
+                Repository management,
+                version control and projects.
+            </p>
+
+            <div class="progress">
+                <span style="width:60%"></span>
+            </div>
+
+            <small>
+                Developing
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="tools-box">
+
+        <span>Currently Exploring</span>
+
+        <div>
+
+            <b>Cyber Security</b>
+            <b>Networking</b>
+            <b>Kali Linux</b>
+            <b>JavaScript</b>
+            <b>Web Development</b>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     PROJECTS
+================================================== -->
+
+<section class="section"
+         id="projects">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="small-title">
+                LEARNING THROUGH PRACTICE
+            </span>
+
+            <h2>
+                My <span>Projects</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-grid">
+
+
+        <!-- Portfolio -->
+
+        <article class="project-card">
+
+
+            <div class="project-image">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <span class="project-label">
+                    CURRENT
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+
+                <h3>
+                    Personal Portfolio
+                </h3>
+
+
+                <p>
+
+                    A responsive personal portfolio
+                    website designed to showcase my
+                    skills, learning journey and projects.
+
+                </p>
+
+
+                <div class="project-links">
+
+                    <a href="https://github.com/KhingkhingCyber"
+                       target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+
+                    </a>
+
+                    <a href="#home">
+
+                        Live Preview
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- Python -->
+
+        <article class="project-card">
+
+
+            <div class="project-image project-two">
+
+                <div class="project-icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <span class="project-label">
+                    LEARNING
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+                    <span>Programming</span>
+
+                </div>
+
+
+                <h3>
+                    Python Practice
+                </h3>
+
+
+                <p>
+
+                    A collection of Python learning
+                    exercises focused on programming
+                    fundamentals, logic and problem solving.
+
+                </p>
+
+
+                <div class="project-links">
+
+                    <a href="https://github.com/KhingkhingCyber"
+                       target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- Linux -->
+
+        <article class="project-card">
+
+
+            <div class="project-image project-three">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+
+                <span class="project-label">
+                    EXPLORING
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-tags">
+
+                    <span>Linux</span>
+                    <span>Security</span>
+
+                </div>
+
+
+                <h3>
+                    Linux & Security Lab
+                </h3>
+
+
+                <p>
+
+                    Exploring Linux commands,
+                    system administration and
+                    Cyber Security fundamentals.
+
+                </p>
+
+
+                <div class="project-links">
+
+                    <a href="https://github.com/KhingkhingCyber"
+                       target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+
+    <div class="github-banner">
+
+        <div>
+
+            <i class="fa-brands fa-github"></i>
+
+            <div>
+
+                <h3>
+                    More projects are coming.
+                </h3>
+
+                <p>
+                    Follow my learning journey on GitHub.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <a href="https://github.com/KhingkhingCyber"
+           target="_blank"
+           class="primary-btn">
+
+            Visit GitHub
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     EDUCATION
+================================================== -->
+
+<section class="section"
+         id="education">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="small-title">
+                MY LEARNING JOURNEY
+            </span>
+
+            <h2>
+                Education & <span>Learning</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    CURRENT
+                </span>
+
+
+                <h3>
+                    Diploma in Computer Science & Technology
+                </h3>
+
+
+                <h4>
+                    Computer Science & Technology
+                </h4>
+
+
+                <p>
+
+                    Currently building a strong foundation
+                    in programming, computer systems,
+                    electronics, mathematics and
+                    technology.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    CURRENT FOCUS
+                </span>
+
+
+                <h3>
+                    Cyber Security
+                </h3>
+
+
+                <h4>
+                    Self-Learning & Practical Exploration
+                </h4>
+
+
+                <p>
+
+                    Learning Linux, networking,
+                    security fundamentals and
+                    ethical security concepts.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    CONTINUOUS
+                </span>
+
+
+                <h3>
+                    Programming & Web Development
+                </h3>
+
+
+                <h4>
+                    Python • HTML • CSS • JavaScript
+                </h4>
+
+
+                <p>
+
+                    Improving programming and frontend
+                    development skills through practice
+                    and personal projects.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CERTIFICATION / FUTURE GOALS
+================================================== -->
+
+<section class="section future-section">
+
+
+    <div class="future-card">
+
+
+        <div class="future-icon">
+
+            <i class="fa-solid fa-rocket"></i>
+
+        </div>
+
+
+        <div>
+
+            <span class="small-title">
+                WHAT'S NEXT
+            </span>
+
+
+            <h2>
+                Building skills for the future.
+            </h2>
+
+
+            <p>
+
+                My current focus is strengthening my
+                programming and Cyber Security fundamentals,
+                building practical projects and creating
+                a strong technical portfolio.
+
+            </p>
+
+        </div>
+
+
+        <div class="future-list">
+
+            <span>
+                <i class="fa-solid fa-check"></i>
+                Improve Python
+            </span>
+
+            <span>
+                <i class="fa-solid fa-check"></i>
+                Learn JavaScript
+            </span>
+
+            <span>
+                <i class="fa-solid fa-check"></i>
+                Explore Networking
+            </span>
+
+            <span>
+                <i class="fa-solid fa-check"></i>
+                Practice Cyber Security
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CONTACT
+================================================== -->
+
+<section class="section"
+         id="contact">
+
+
+    <div class="contact-container">
+
+
+        <div class="contact-text">
+
+
+            <span class="small-title">
+                GET IN TOUCH
+            </span>
+
+
+            <h2>
+
+                Let's connect
+                and <span>build.</span>
+
+            </h2>
+
+
+            <p>
+
+                If you want to discuss technology,
+                programming, Cyber Security or
+                collaboration, feel free to connect.
+
+            </p>
+
+
+            <div class="contact-info">
+
+
+                <a href="https://github.com/KhingkhingCyber"
+                   target="_blank">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    github.com/KhingkhingCyber
+
+                </a>
+
+
+                <!-- এখানে নিজের email বসাবে -->
+
+                <a href="mailto:khingkhingmarma598@gmail.com">
+
+   
+                    <i class="fa-solid fa-envelope"></i>
+                
+                    khingkhingmarma598@gmail.com
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <form class="contact-form"
+              id="contactForm">
+
+
+            <div class="input-group">
+
+                <label>
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>
+                    Your Email
+                </label>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>
+                    Message
+                </label>
+
+                <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit"
+                    class="primary-btn">
+
+                Send Message
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer class="footer">
+
+
+    <div class="footer-logo">
+
+        &lt;Khingkhing/&gt;
+
+    </div>
+
+
+    <p>
+
+        Computer Science Student •
+        Cyber Security Enthusiast •
+        Programmer
+
+    </p>
+
+
+    <div class="footer-social">
+
+
+        <a href="https://github.com/KhingkhingCyber"
+           target="_blank">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+
+
+        <a href="#">
+
+            <i class="fa-brands fa-linkedin-in"></i>
+
+        </a>
+
+
+        <a href="#">
+
+            <i class="fa-brands fa-facebook-f"></i>
+
+        </a>
+
+    </div>
+
+
+    <p class="copyright">
+
+        © 2026 Khingkhing Cyber.
+        Built with HTML, CSS & JavaScript.
+
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
